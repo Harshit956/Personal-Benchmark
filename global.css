@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@400;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0e1827;
+    color: whitesmoke;
+    font-family: 'Open Sans';
+    min-height: 100dvh;
+    min-width: 0;
+}
+
+nav{
+    height: 55px;
+    display: flex;
+    padding: 0 2.4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .brand-a, nav .brand-a:visited{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+nav a .brand{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+nav a .brand img{
+    height: 40px;
+    width: auto;
+}
+
+nav .navigation{
+    padding: 0 2rem 0 0;
+}
+
+nav .navigation ul{
+    display: flex;
+    list-style: none;
+    gap: 33px;
+}
+
+nav .navigation ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 0.95rem;
+}
